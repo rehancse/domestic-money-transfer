@@ -1,0 +1,423 @@
+.bc1{ border:1px solid red; }
+.bc2{ border:1px solid green; }
+.bc3{ border:1px solid orange; }
+.bc4{ border:1px solid blue; }
+.bc5{ border:1px solid black; }
+
+/* --------- DMR ----------------*/
+
+.fg-green{
+	color:#00c851;
+}
+
+.fg-pink{
+	color:#ff8336;
+}
+
+
+@media (min-width: 1300px){
+	.container {
+		max-width: 1240px;
+	}
+}
+
+.navbar {
+    border-radius: 5px;
+	}
+
+.bg-green {
+    background:#00c851!important;
+    color: #fff!important;
+}
+	
+.no-link {
+    display: block;
+    padding: .5rem 1rem;
+	color:#fff;
+}
+
+.no-link:hover{
+    text-decoration:none;
+}
+
+a.no-link:hover{
+    color:#fff;
+}
+
+.nav-item{
+	background:#00c851;
+	color:fff;
+	transition:0.3s;
+}
+	
+.nav-item:hover{
+	background:#ff8336;
+	color:fff;
+}	
+
+.dropdown-menu#drpdwn {
+    padding: 0.5rem 0;
+    margin: 0rem 0 0;
+    color: #fff;
+    background-color: #00c851;
+}
+
+.dropdown-menu {
+    margin: 0rem 0 0;
+    color: #fff;
+    background-color: #ff8336;
+}
+
+.dropdown-item {
+	color:#fff;
+    transition: 0.2s;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ff8336;
+}
+
+.bt-green {
+    background: #00c851 !important;
+    border: 1px solid #00c851 !important;
+}
+
+.bt-green:hover, .bt-green:focus {
+    background: #00c851 !important;
+	color:#fff;
+    border: 1px solid #00c851 !important;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.35)!important;
+}
+
+.bt-pink {
+    background: #ff8336 !important;
+    border: 1px solid #ff8336 !important;
+}
+
+.bt-pink:hover, .bt-pink:focus {
+    background: #ff8336 !important;
+	color:#fff;
+    border: 1px solid #ff8336 !important;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.35)!important;
+}
+
+.border1{
+	border:1px solid #eee;
+	border-radius:5px;
+	padding:5px;
+}
+
+@media (min-width: 991px){
+	.modal-dialog {
+		max-width: 800px;
+	}
+}
+
+/* --------- DMR ----------------*/	
+	
+	
+	
+	
+/* --------- SIDEBAR ----------------*/
+
+
+body,html {
+    font-family: 'Poppins', sans-serif ;
+}
+
+.sidenav {
+	min-height:100%;
+    width: 0;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: #343a40;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+	top:0;
+    right: 5px;
+    font-size: 36px;
+	padding:4px;
+}
+
+.sidenav-brand{
+	position: absolute;
+	top:0;
+	margin:auto 0;
+	color:#fff;
+	font-size:25px;
+	padding:10px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/* --------- SIDEBAR ----------------*/
+
+
+
+/* --------- REPORT ----------------*/
+
+.cb-border{
+	border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	padding:8px 20px;
+}
+
+
+
+
+
+/* --------- REPORT ----------------*/
+
+
+
+
+
+
+
+/* --------- NAVBAR ----------------*/
+
+
+.bg-blue{
+	background:#3498db;
+}
+
+.bg-carbon-black{
+	background:#343a40;
+}
+
+.bg-bread{
+	    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+.bg-blue .navbar-toggler {
+    color: rgba(255,255,255,1);
+    border-color: rgba(255,255,255,1);
+}
+
+.navbar-toggler {
+    padding: .5rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+/* --------- NAVBAR ----------------*/
+
+
+
+
+/* --------- LEFT MENU ----------------*/
+
+
+
+
+
+
+
+
+
+
+
+ul{
+	list-style:none;
+}
+.left-menu ul a{
+	color:#f8f9fa;
+	text-decoration:none;
+}
+
+.left-menu ul a:hover{
+	background:white;
+	color:black;
+}
+
+.sub-menu{
+padding-left:1.5rem;		
+}
+
+.sub-menu li{
+	padding:0.5rem 1rem;	
+}
+
+.sub-menu li:hover{
+	background:white;
+	color:black;	
+}
+.sub-menu li a{
+	padding:0.25rem;
+	
+}
+
+/* --------- LEFT MENU ----------------*/
+
+
+
+/* --------- DASHBOARD  ----------------*/
+.dash-row1 .col-md-3{
+	padding-bottom:1rem;
+}
+.dash-row2 .col-md-3{
+	padding-bottom:4rem;
+}
+.dash-menu1{
+	padding:1rem;
+	background:rgba(59, 89, 152, 0.8);
+	color:#fff;
+	box-shadow: 5px 5px 18px #aaa;
+	border-radius: 10px;
+}	
+.dash-menu2{
+	padding:1rem;
+	background:rgba(220, 53, 69, 0.8);
+	color:#fff;
+    box-shadow: 5px 5px 18px #aaa;
+    border-radius: 10px;	
+}	
+.dash-menu3{
+	padding:1rem;
+	background:#00a78e;
+	color:#fff;
+    box-shadow: 5px 5px 18px #aaa;
+    border-radius: 10px;	
+}	
+.dash-menu4{
+	padding:1rem;
+	background:rgba(221, 19, 123, 0.8);
+	color:#fff;
+    box-shadow: 5px 5px 18px #aaa;	
+	border-radius: 10px;
+}	
+
+.dash-chart{
+	font-size:20px;
+	font-weight:bold;
+	color:#818182;
+}
+
+.tab-bor{
+	box-shadow: -5px 5px 18px #aaa;
+}
+
+
+/* --------- DASHBOARD  ----------------*/
+
+
+
+
+
+
+
+
+
+
+
+.card a{
+	text-decoration:none;
+}
+.card a span{
+	font-size:1.2rem;
+	font-weight:500;
+}
+.card-body .form-group{
+	;
+}
+.card-body table{
+	margin-bottom:0;
+}
+/* ---------ADD MANAGERS  ----------------*/
+
+
+
+/*  Gradient 2222222222222222222222222----------------------     */
+
+/*  Gradient 22222222222222222222222222222----------------------     */
+
+
+
+
+/*  LOGIN PAGE----------------------     */
+
+.log-btn{
+	width:100%;	
+}
+
+.cen{
+    vertical-align:50%;
+}
+.border{
+		border:5px solid #fff;
+		padding:3rem;
+		border-radius:20px;
+}		
+
+/*  LOGIN PAGE----------------------     */
+
+
+
+/*  Donut Label----------------------     */
+
+.donut-label{
+	text-align:center;
+	font-weight:bold;
+}
+
+/*  Donut Label----------------------     */
+
+
+
+
+
+
+
+
+.dropdown-toggle::after {
+    color: #ffffff;
+}
+
+
+@media (max-width: 992px){
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+}
+}

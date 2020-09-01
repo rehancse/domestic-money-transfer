@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+	
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+
+    <title>Chirag Panel</title>
+	
+	    <!-- Fontawesome -->
+	<link rel="stylesheet" href="fa/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	
+	<!-- Datepicker -->
+	<link rel="stylesheet" href="css/datepicker.css">
+	<script src="js/datepicker.js"></script>
+	
+	<!-- My CSS -->
+	<script src="js/js-2.js"></script>
+	<link rel="stylesheet" href="css/mycss.css">
+  </head>
+  
+  
+ <body>
+
+	<div class="container pt-1">
+		<div class="row">
+			<div class="col-sm-12 text-sm-left text-center">
+			<a href="index.html">
+				<img class="img-fluid" src="images/logo.png" style="width:120px;height:72px;">
+			</a>	
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<div class="container px-sm-3 px-0  mt-2">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-green p-0">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+			  <li class="nav-item active ml-sm-3 ml-0 p-sm-1 p-0">
+				<a class="no-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+			  </li>
+			  <li class="nav-item ml-sm-3 ml-0 p-sm-1 p-0">
+				<a class="no-link" href="refund.html">Refund</a>
+			  </li>
+			  <li class="nav-item dropdown ml-sm-3 ml-0 p-sm-1 p-0">
+				<a class="no-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Transaction History
+				</a>
+				<div class="dropdown-menu" id="drpdwn" aria-labelledby="navbarDropdown">
+				  <a class="dropdown-item" href="transaction.html">Agency Overall Remittance</a>
+				  <a class="dropdown-item" href="sender_reg.html">Sender Registration</a>
+				</div>
+			  </li>
+			  <li class="nav-item ml-sm-3 ml-0 p-sm-1 p-0">
+				<a class="no-link" href="#">Exit</a>
+			  </li>
+			</ul>
+		  </div>
+		</nav>
+	</div>
+
+	
+	
+	
+	
+	
+
+
+
+	<div class="container px-3 mt-3">
+		<div class="card">
+		  <div class="card-header fg-green"><i class="fa fa-share-square-o fa-lg fa-fw" aria-hidden="true"></i> Sender</div>
+		  <div class="card-body p-0">
+			<div class="table-responsive">
+			<table class="table">
+			  <tbody>
+				<tr>
+				  <td scope="row">Mobile No.</th>
+				  <td>9876543210</td>
+				  <td>Name</td>
+				  <td>Santosh Kumar</td>
+				</tr>
+			  </tbody>
+			  <tbody class="collapse" id="collapseExample">				  
+				<tr>
+				  <td scope="row">Address</th>
+				  <td>Sector 63, Noida</td>
+				  <td>Pincode</td>
+				  <td>201307</td>
+				</tr>
+				<tr>
+				  <td scope="row">City</th>
+				  <td>Noida</td>
+				  <td>State</td>
+				  <td>Uttar Pradesh</td>
+				</tr>
+			  </tbody>
+			</table>
+			</div>
+		  </div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3 pt-1">
+			  <button class="btn btn-primary bt-pink" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+				<i class="fa fa-plus" aria-hidden="true"></i>
+			  </button>
+			</div> 
+			<div class="col-sm-9 pt-1">	
+				<div class="text-success text-sm-right">TOTAL TRANSACTION LIMIT 25000.00, REMAINING LIMIT 25000.00 (PER MONTH)</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	<div class="container px-3 mt-3">
+		<div>
+			<div class="card">
+			  <div class="card-header fg-green"><i class="fa fa-share-square-o fa-lg fa-fw" aria-hidden="true"></i> 
+				<span class="text-left">Beneficiary</span>
+				<span class="float-right">
+					<a href="add_beneficiary.html" class="btn btn-success bt-green btn-sm">
+						<i class="fa fa-user-plus" aria-hidden="true"></i> Add Benificiary
+					</a>
+				</span>
+			  </div>
+			  <div class="card-body p-3">
+				<div class="table-responsive">
+					<table class="table table-bordered table-hover">
+					  <thead class="table-primary">
+						<tr>
+						  <th scope="col">Status</th>
+						  <th scope="col">Name</th>
+						  <th scope="col">Mobile No.</th>
+						  <th scope="col">Bank Name</th>
+						  <th scope="col">IFSC</th>
+						  <th scope="col">Account No.</th>
+						  <th scope="col">IMPS</th>
+						  <th scope="col">NEFT</th>
+						  <th scope="col">Delete</th>
+						</tr>
+					  </thead>
+					  <tbody>
+						<tr>
+						  <th scope="row">
+							<a href="#exampleModal" class="btn btn-warning btn-sm" data-toggle="modal" data-backdrop="static">
+								<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Verify
+							</a>
+						  </th>
+						  <td>Ramesh Kumar</td>
+						  <td>9876543211</td>
+						  <td>Axis Bank</td>
+						  <td>AXIS0123456</td>
+						  <td>123456789</td>
+						  <td><a href="imps.html" class="btn btn-success bt-green btn-sm">Pay Now</a></td>
+						  <td><a href="neft.html" class="btn btn-success bt-green btn-sm">Pay Now</a></td>
+						  <td>
+							<a href="sender_otp.html" class="btn btn-danger bt-pink btn-sm">
+								<i class="fa fa-trash-o fa-fw fa-lg" aria-hidden="true"></i>
+							</a>
+						  </td>
+						</tr>
+						
+						<tr>
+						  <th scope="row">
+							<button class="btn btn-success bt-green btn-sm">
+								<i class="fa fa-check" aria-hidden="true"></i> Verified
+							</button>
+						  </th>
+						  <td>Preeti Singh</td>
+						  <td>7654321345</td>
+						  <td>Indian Bank</td>
+						  <td>INDB0987678</td>
+						  <td>3456789098</td>
+						  <td><a href="imps.html" class="btn btn-success bt-green btn-sm">Pay Now</a></td>
+						  <td><a href="neft.html" class="btn btn-success bt-green btn-sm">Pay Now</a></td>
+						  <td>
+							<a href="sender_otp.html" class="btn btn-danger bt-pink btn-sm">
+								<i class="fa fa-trash-o fa-fw fa-lg" aria-hidden="true"></i>
+							</a>
+						  </td>
+						</tr>
+					  </tbody>
+					</table>
+				</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Information</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Are you sure you want to VERIFY the Account Number with IMPS and auto fill the beneficiary name?</p>
+		<p class="pt-3 mb-0">Terms and Conditions:</p>
+		<div>Once you confirm & press OK:</div>
+		<ul style="list-style-type:disc;">
+			<li>Your agency top-up account will be debited for Rs 5 /- towards Verification Charges.</li>
+			<li>Sender Account will be credited for Rs 1 /-.</li>
+		</ul>
+      </div>
+      <div class="modal-footer">
+	    <button type="button" class="btn btn-primary bt-green">Proceed</button>
+        <button type="button" class="btn btn-danger bt-pink" data-dismiss="modal">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="container px-3 mt-3">
+	<div class="card">
+	  <div class="card-header">
+		<span class="float-left">
+			<small>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2019-2020</small>
+		</span>
+		<span class="float-right">
+			<small><a class="text-dark" target="_blank" href="https://apnachirag.com/">Apna Chirag</a></small>
+		</span>
+	  </div>
+	</div>
+</div>
+
+
+<script>
+$( "#dp1" ).datepicker();
+</script>
+
+<script>
+$( "#dp2" ).datepicker();
+</script>
+
+<script>
+$( "#dp3" ).datepicker();
+</script>
+
+<script>
+$( "#dp4" ).datepicker();
+</script>
+
+</body>
+
+</html>
